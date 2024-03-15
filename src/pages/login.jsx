@@ -16,7 +16,7 @@ const LoginPage = () => {
             <div className="mb-4 w-full">
               <input className="w-full h-14 px-4 py-3 border rounded-xl text-left" type="password" placeholder="Password" />
             </div>
-            <div className="flex flex-col lg:flex-row gap-4 justify-center mb-4 w-full">
+            <div className="flex flex-col lg:flex-row gap-3 justify-center mb-4 w-full">
               <button className="flex-1 bg-[#fcd137] hover:bg-green-700 text-black font-bold py-3 px-4 rounded-2xl">Log In</button>
               <button className="flex-1 bg-[#fcd137] hover:bg-green-700 text-black font-bold py-3 px-4 rounded-2xl">Sign Up</button>
             </div>
