@@ -5,7 +5,7 @@ const LoginPage = () => {
     <div className="flex flex-col min-h-screen">
       <div className="flex flex-grow">
         <div className="flex flex-col justify-center w-1/2 pl-8">
-          <h1 className="text-left text-5xl pl-4 font-bold mb-4">Volunteer Management System</h1>
+          <h1 className="text-left text-5xl pl-4 font-medium mb-4">Volunteer Management System</h1>
         </div>
         <div className="flex flex-col justify-center w-1/3 pr-8 relative">
           <div className="absolute top-1/4 transform -translate-y-1/2 left-1/2 w-screen h-52 bg-[#fcd137] rounded-3xl"></div>
