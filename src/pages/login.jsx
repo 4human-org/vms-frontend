@@ -1,4 +1,5 @@
 import Footer from '../components/footer';
+import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
   return (
@@ -17,8 +18,8 @@ const LoginPage = () => {
               <input className="w-full h-14 px-4 py-3 border rounded-xl text-left" type="password" placeholder="Password" />
             </div>
             <div className="flex flex-col lg:flex-row gap-3 justify-center mb-4 w-full">
-              <button className="flex-1 bg-[#fcd137] hover:bg-green-700 text-black font-bold py-3 px-4 rounded-2xl">Log In</button>
-              <button className="flex-1 bg-[#fcd137] hover:bg-green-700 text-black font-bold py-3 px-4 rounded-2xl">Sign Up</button>
+              <button type="submit" className="flex-1 bg-[#fcd137] hover:bg-green-700 text-black font-bold py-3 px-4 rounded-2xl">Log In</button>
+              <Link to="/signup" className="flex-1 bg-[#fcd137] hover:bg-green-700 text-black font-bold py-3 px-4 rounded-2xl text-center flex items-center justify-center">Sign Up</Link>
             </div>
             <a className="self-start text-slate-400 mb-10 pl-4 " href="#">Forgot Password?</a>
           </form>
